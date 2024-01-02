@@ -194,6 +194,13 @@
     <Compile Include="Admin\StudentAttendanceDetails.aspx.designer.cs">
       <DependentUpon>StudentAttendanceDetails.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\Subject.aspx.cs">
+      <DependentUpon>Subject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Subject.aspx.designer.cs">
+      <DependentUpon>Subject.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -215,6 +222,7 @@
     <Content Include="Admin\Marks.aspx" />
     <Content Include="Admin\Student.aspx" />
     <Content Include="Admin\StudentAttendanceDetails.aspx" />
+    <Content Include="Admin\Subject.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
