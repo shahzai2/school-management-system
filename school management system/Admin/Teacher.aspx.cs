@@ -11,7 +11,7 @@ namespace SchoolManagementSystem.Admin
 {
     public partial class Teacher : System.Web.UI.Page
     {
-        Commonfnx fn = new Commonfnx();
+        private readonly Commonfnx fn = new Commonfnx();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Session["admin"] == null)
