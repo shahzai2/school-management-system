@@ -131,6 +131,12 @@
     <Compile Include="Admin\AddClass.aspx.designer.cs">
       <DependentUpon>AddClass.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\AdminMst.Master.cs">
+      <DependentUpon>AdminMst.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminMst.Master.designer.cs">
+      <DependentUpon>AdminMst.Master</DependentUpon>
+    </Compile>
     <Compile Include="Admin\ClassFees.aspx.cs">
       <DependentUpon>ClassFees.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -166,6 +172,13 @@
     <Compile Include="Admin\ExpenseDetails.aspx.designer.cs">
       <DependentUpon>ExpenseDetails.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\MarkDetails.aspx.cs">
       <DependentUpon>MarkDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -179,6 +192,12 @@
     </Compile>
     <Compile Include="Admin\Marks.aspx.designer.cs">
       <DependentUpon>Marks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MarksDetailUserControl.ascx.cs">
+      <DependentUpon>MarksDetailUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="MarksDetailUserControl.ascx.designer.cs">
+      <DependentUpon>MarksDetailUserControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Admin\Student.aspx.cs">
       <DependentUpon>Student.aspx</DependentUpon>
@@ -201,6 +220,20 @@
     <Compile Include="Admin\Subject.aspx.designer.cs">
       <DependentUpon>Subject.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\Teacher.aspx.cs">
+      <DependentUpon>Teacher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Teacher.aspx.designer.cs">
+      <DependentUpon>Teacher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TeacherSubject.aspx.cs">
+      <DependentUpon>TeacherSubject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TeacherSubject.aspx.designer.cs">
+      <DependentUpon>TeacherSubject.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -209,6 +242,12 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StudentAttendanceUC.ascx.cs">
+      <DependentUpon>StudentAttendanceUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentAttendanceUC.ascx.designer.cs">
+      <DependentUpon>StudentAttendanceUC.ascx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin\AdminHome.aspx" />
@@ -218,11 +257,15 @@
     <Content Include="Admin\EmployeeAttendance.aspx" />
     <Content Include="Admin\Expense.aspx" />
     <Content Include="Admin\ExpenseDetails.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="Admin\MarkDetails.aspx" />
     <Content Include="Admin\Marks.aspx" />
+    <Content Include="MarksDetailUserControl.ascx" />
     <Content Include="Admin\Student.aspx" />
     <Content Include="Admin\StudentAttendanceDetails.aspx" />
     <Content Include="Admin\Subject.aspx" />
+    <Content Include="Admin\Teacher.aspx" />
+    <Content Include="Admin\TeacherSubject.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -248,6 +291,8 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Admin\AdminMst.Master" />
+    <Content Include="Admin\StyleSheet1.less" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -259,6 +304,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="StudentAttendanceUC.ascx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
