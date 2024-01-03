@@ -14,10 +14,10 @@ namespace SchoolManagementSystem.Models
         {
             SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["SchoolCS"].ConnectionString);
             public void Query(string query)
-            {
-                if (con.State == ConnectionState.Closed)
+            { 
+               if (con.State == ConnectionState.Closed)
                 {
-                    con.Open();
+                   con.Open();
                 }
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.ExecuteNonQuery();
@@ -28,7 +28,7 @@ namespace SchoolManagementSystem.Models
             {
                 if (con.State == ConnectionState.Closed)
                 {
-                    con.Open();
+                   con.Open();
                 }
                 SqlCommand cmd = new SqlCommand(query, con);
                 SqlDataAdapter sda = new SqlDataAdapter(cmd);
