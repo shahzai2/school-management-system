@@ -43,7 +43,7 @@ namespace SchoolManagementSystem.Admin
                     string query = "Insert into Class values('" + txtClass.Text.Trim() + "')";
                     fn.Query(query);
                     lblMsg.Text = "Inserted Successfully!";
-                    lblMsg.CssClass = "alert alert-success";
+                    lblMsg.CssClass = "alert Succesfull";
                     txtClass.Text = string.Empty;
                     GetClass();
                 }
